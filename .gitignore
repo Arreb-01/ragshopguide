@@ -1,0 +1,47 @@
+# Local secrets
+.env
+*.env.local
+server/.env
+
+# Local competition materials
+课题说明会：基于 RAG 的多模态电商智能导购 AI Agent.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Local RAG/vector indexes
+server/data/chroma/
+*.sqlite3
+*.db
+
+# macOS / Xcode
+.DS_Store
+DerivedData/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Android / Gradle
+.gradle/
+.kotlin/
+**/build/
+**/bin/
+local.properties
+
+# Local Android smoke-test captures
+ragguide-*.png
+ragguide-*.xml
+.idea/
+*.iml
+captures/
+
+# Codex / local worktrees
+.worktrees/
+worktrees/
